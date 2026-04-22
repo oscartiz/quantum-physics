@@ -16,6 +16,11 @@ The plots correctly reflect quantum physics behaviors—the lower energy wavefun
 
 ![Quantum Harmonic Oscillator](harmonic_oscillator.png)
 
+## Dynamic Quantum Tunneling
+Using an exact mathematical Eigenbasis Expansion combined onto our engine, we simulated the exact Time-Dependent Schrödinger evolution showcasing a bounded continuous Gaussian wavepacket striking a strong finite barrier and tunneling dynamically.
+
+![Quantum Tunneling Wavepacket Timeline](tunneling.gif)
+
 ## Validation Methods Tested
 - Automated tests using `cargo run` accurately completed computations.
 - Inspected the zero-boundary vanishing limits and boundary penetrations. As predicted, the wave packet penetrates inside the wall regions in the **Finite Square Well** and **Harmonic Oscillator**, but strictly zeroes out at the boundary of the **Infinite Square Well**.

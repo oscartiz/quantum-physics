@@ -5,4 +5,5 @@ edition = "2024"
 
 [dependencies]
 nalgebra = "0.34.2"
+num-complex = "0.4.6"
 plotters = "0.3.7"

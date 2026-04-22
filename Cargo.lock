@@ -743,6 +743,7 @@ name = "quantum_sim"
 version = "0.1.0"
 dependencies = [
  "nalgebra",
+ "num-complex",
  "plotters",
 ]
 
