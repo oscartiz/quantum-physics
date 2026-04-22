@@ -218,7 +218,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Solving Infinite Square Well...");
     let isw = Potential::InfiniteSquareWell;
     let results_isw = solve_tise(&isw, num_states);
-    plot_results(&isw, &results_isw, "infinite_square_well.png", "Infinite Square Well", results_isw.last().unwrap().0 + 5.0)?;
+    plot_results(&isw, &results_isw, "infinite_square_well.png", "Infinite Square Well", 0.5)?;
     
     println!("Solving Finite Square Well...");
     let fsw = Potential::FiniteSquareWell { width: 5.0, depth: 15.0 };
